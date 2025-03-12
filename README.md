@@ -21,3 +21,5 @@ Technologies Used
 5. OpenAI API: Integrated for enhancing recommendations via natural language processing (though not currently active due to API quota).
 6. Pandas: Data manipulation and handling for product datasets.
 7. Scikit-learn: For calculating similarity scores and handling machine learning models.
+
+Data Used: Instacart Retail User Data 
