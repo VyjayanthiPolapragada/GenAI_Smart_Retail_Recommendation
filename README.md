@@ -23,3 +23,26 @@ Technologies Used
 7. Scikit-learn: For calculating similarity scores and handling machine learning models.
 
 Data Used: Instacart Retail User Data 
+
+Installation and Setup
+
+Prerequisites
+1. Python 3.8 or higher
+2. Git (for cloning the repository)
+3. Access to the OpenAI API (if you want to use the OpenAI integration)
+
+Running the project 
+1. Clone the repo
+2. Create and activate virtual environment
+3. Install pacakges from requirements.txt
+4. Apply recommendation functions on data
+5. Run the backend (FastAPI)
+   Use following command:
+   cd backend;
+   uvicorn main:app --reload
+6. Run the frontend (Streamlit)
+   Use following command:
+   cd frontend;
+   streamlit run frontend.py
+7. Access the Recommendation API:Use the API endpoint /recommendations/ to get product recommendations based on the input product name. If you are using OpenAI, it will provide more personalized recommendations based on user queries.
+
